@@ -1,0 +1,5 @@
+numpy
+pandas
+scorecardpy
+scikit-learn
+matplotlib
