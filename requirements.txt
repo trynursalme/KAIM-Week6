@@ -1,5 +1,13 @@
+task-3
 numpy
 pandas
 scorecardpy
 scikit-learn
 matplotlib
+=======
+pandas
+matplotlib
+numpy
+scikit-learn
+seaborn
+main
