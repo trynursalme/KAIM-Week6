@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+h1 {
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #34495e;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Result Section */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    color: #95a5a6;
+}
